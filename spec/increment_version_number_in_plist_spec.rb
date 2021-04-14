@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Fastlane::Actions::IncrementVersionNumberInPlistAction do
   describe "Increment Version Number in Info.plist Integration" do
     let (:test_path) { "/tmp/fastlane/tests/fastlane" }
-    let (:plist_file) { File.join("plist/", "Info.plist") }
+    let (:plist_file) { File.join("plist/", "Info-Release.plist") }
 
     # Action parameters
     let (:info_plist_file) { File.join(test_path, plist_file) }
